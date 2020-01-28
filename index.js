@@ -1,3 +1,6 @@
 let drivers = ["Milo", "Otis", "Garfield"];
 
-function 
+function destructivelyAppendDriver(name) {
+  drivers.push(name)
+  
+}
